@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(132, 113, 113, 0.345);
+    /* background-image: url();
+    background-size: cover;
+    background-position: center; */
+}
+
+.box {
+    height: 95%;
+    width: 23%;
+    border: 2px solid black;
+    border-radius: 7px;
+    background-color: black;
+}
+
+.arrow {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: #999;
+    margin-top: 5px;
+    
+}
+
+.arrow i {
+    font-size: 25px;
+    color: #999;
+
+}
+
+.box2 {
+    width: 100%;
+    height: 18%;
+    display: flex;
+}
+
+.gana {
+    height: 55%;
+    width: 19%;
+    margin-left: 10px;
+    margin-top: 4px;
+    background-image: url(https://www.andyroid.net/wp-content/uploads/2015/06/Gaana-Unlimited-icon.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.text {
+    height: 80%;
+    width: 100%;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-size: 19px;
+}
+
+.text h2 {
+    color: white;
+}
+
+.text h3 {
+    color: white;
+}
+
+.text h4 {
+    color: blue;
+}
+
+.box3 {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-top: -18px;
+    font-size: 19px;
+    padding: 0 10px;
+}
+
+
+
+.button {
+    width: 80%;
+    height: 4%;
+    border: 1px solid rgb(24, 21, 146);
+    border-radius: 10px;
+    background-color: rgb(24, 21, 146);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 35px;
+    color: white;
+}
+
+.img {
+    width: 100%;
+    height: 28%;
+    background-color: black;
+}
+
+.box9 {
+    width: 100%;
+    height: 11%;
+    background-color: black;
+    color: white;
+    margin-top: -12px;
+    font-size: 18px;
+}
+
+.box8 {
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.box8 i {
+    color: white;
+}
+
+.button1 {
+    height: 15%;
+    width: 30%;
+    border: 2px solid white;
+}
+
+.button1 i i i i i {
+    font-size: 10zzpx;
+}
+
+.img {
+    display: flex;
+    margin-top: 9px;
+    justify-content: center;
+    gap: 5px;
+    padding: 10px 5px;
+}
+
+.img1 {
+    height: 90%;
+    width: 30%;
+    background-color: rgb(175, 24, 24);
+    background-image: url(https://a10.gaanacdn.com/gn_img/showcase/g4w3vr3jJB/g4w3vzo3jJ/size_l_1712748987.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.img2 {
+    height: 90%;
+    width: 50%;
+    background-color: rgb(175, 24, 24);
+    background-image: url(https://a10.gaanacdn.com/gn_img/showcase/9En3peWXDV/En3pN10bXD/size_l_1717077421.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.img3 {
+    height: 90%;
+    width: 30%;
+    background-color: rgb(175, 24, 24);
+    background-image: url(https://a10.gaanacdn.com/gn_img/showcase/d41WjnWPLq/41Wj96o3PL/size_l_1717077355.webp);
+    background-position: center;
+    background-size: cover;
+}
