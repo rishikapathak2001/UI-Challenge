@@ -1,0 +1,506 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(223, 215, 215);
+}
+
+.main1 {
+    height: 95%;
+    width: 95%;
+   display: flex;
+    font-family: sans-serif;
+}
+
+.main1 .left {
+    height: 100%;
+    width: 35%;
+    background-color: rgb(141, 141, 230);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px; 
+}
+
+.button {
+    height: 5%;
+    width: 90%;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 23px;
+    margin-left: 5px;
+    margin-top: 10px; 
+    padding: 8px 10px;
+}
+
+.box1 {
+    height: 7%;
+    width: 90%;
+    /* border: 1px solid white; */
+    margin-top: 15px; 
+    border-radius: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 .b1, .box1 .b2, .box1 .b3, .box1 .b4 {
+    height: 70%;
+    border: 2px solid rgba(54, 13, 176, 0.718);
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 .b1 { width: 14%; }
+.box1 .b2 { width: 24%; }
+.box1 .b3 { width: 26%; }
+.box1 .b4 { width: 21%; }
+
+.b1 h3 , .b2 h3 , .b3 h3 , .b4 h3{
+    font-size: 15px;
+    color: white;
+
+}
+
+.message {
+    margin-right: 70%;
+    margin-top: 10px; 
+    color: white;
+}
+
+.box2 {
+    width: 100%;
+    height: 81%;
+    background-color: rgb(141, 141, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+  
+}
+
+.innerbox1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    width: 90%;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+}
+
+.innerbox1 .img1 {
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(https://t4.ftcdn.net/jpg/03/25/73/59/360_F_325735908_TkxHU7okor9CTWHBhkGfdRumONWfIDEb.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.innerbox1 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.innerbox2 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    width: 90%;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+}
+
+.innerbox2 .img2 {
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=);
+    background-size: cover;
+    background-position: center;
+}
+
+.innerbox2 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+    color: white;
+
+}
+.innerbox3 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    width: 90%;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+}
+
+.innerbox3 .img3 {
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(https://t4.ftcdn.net/jpg/03/25/73/59/360_F_325735908_TkxHU7okor9CTWHBhkGfdRumONWfIDEb.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+
+.innerbox3 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+    color: white;
+}
+.innerbox4 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    width: 90%;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+}
+
+.innerbox4 .img4 {
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(https://i.pinimg.com/236x/26/3e/cf/263ecff34c50090082954ada44af48ea.jpg);
+    background-size: cover;
+    background-position: center; */
+}
+
+.innerbox4 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+    color: white;
+}
+.innerbox5 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    width: 90%;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+}
+
+.innerbox5 .img5 {
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(https://img.freepik.com/free-photo/beautiful-young-man-student-businessman-jacket-holds-his-arms-crossed-isolated-light-grey-wall_231208-6135.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.innerbox5 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+    color: white;
+
+}.innerbox6 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    width: 90%;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+}
+
+.innerbox6 .img6 {
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(https://img.freepik.com/free-photo/confident-young-businessman-suit-standing-with-arms-folded_171337-18599.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.innerbox6 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+    color: white;
+}
+
+.innerbox7 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    width: 90%;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+}
+
+.innerbox7 .img7 {
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    background-image: url(https://img.freepik.com/free-photo/confident-young-businessman-suit-standing-with-arms-folded_171337-18599.jpg);
+    background-size: cover;
+    background-position: center; 
+}
+
+.innerbox7 .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+    color: white;   }
+
+
+
+
+
+
+
+
+
+
+
+.main .right{
+    height: 100%;
+    width: 66%;
+    background-color: rgba(5, 5, 7, 0.221);
+}
+.right nav{
+    width: 100%;
+    height: 10%;
+    background-color: rgba(54, 13, 176, 0.718);
+    /* border-bottom: 1px solid rgb(7, 1, 1); */
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+}
+
+.navimg{
+    height: 55px;
+    width: 55px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin-left: 9px;
+    background-image: url(https://i.pinimg.com/236x/26/3e/cf/263ecff34c50090082954ada44af48ea.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+}
+.nav2{
+    margin-right: 13px;
+    
+}
+.nav2 i{
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    font-size: 20px;
+   
+}
+.text1 h3, h4{
+    color: white;
+}
+.text3{
+    color: gray;
+    margin-left: 45%;
+}
+.chats{
+    width: 100%;
+    height: 71%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 15px;
+   
+}
+.chat1{
+    
+    height: 17%;
+    width: 40%;
+   display: flex;
+ 
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 2%;
+   background-color: white;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+  
+}
+.chat1 h3{
+    margin-left: 10px;
+}
+.chat1 h5{
+      margin-left: 80%;
+}
+.chat2{
+  
+    height: 19%;
+    width: 40%;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: white;
+   border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+   margin-left: 58%;
+}
+.chat2 h3{
+    margin-left: 10px;
+}
+.chat2 h5{
+    margin-left: 80%;
+}
+.chat3{
+    
+    height: 17%;
+    width: 40%;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: white;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+   margin-left: 2%;
+  
+   
+}
+.chat3 h3{
+    margin-left: 10px;
+}
+.chat3 h5{
+    margin-left: 80%;
+}
+.chat4{
+    
+    border-top-left-radius: 15px;
+   border-top-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+    height: 13%;
+    width: 40%;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: white;
+  
+   margin-left: 58%;
+}
+.chat4 h3{
+    margin-left: 10px;
+}
+.chat4 h5{
+    margin-left: 80%;
+}
+.chat5{
+    /* border: 1px solid black; */
+    height: 12%;
+    width: 40%;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: white;
+   border-top-right-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border-bottom-left-radius: 15px;
+   margin-left: 2%;
+   
+}
+.chat5 h3{
+    margin-left: 10px;
+}
+.last{
+    height: 14%;
+    width: 100%;
+   margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.left1{
+    height: 80%;
+    width: 80%;
+    border: 1px solid gray;
+   border-radius: 10px;
+   margin-left: 2%;
+   display: flex;
+   align-items: center;
+   
+   color: rgba(128, 128, 128, 0.744);
+   background-color: white;
+      
+
+}
+.left1 h5 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 10px;
+}
+  .icons  {
+    margin-left: 70%;
+    font-size: 19px;
+    }
+.left2{
+    height: 80%;
+    width: 8%;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    background-color: blue  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.left2  i {
+    font-size: 34px; 
+}
+
+
