@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    background-color: #314A4A;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.mainbox {
+    height: 93%;
+    width: 60%;
+    background-color: aqua;
+}
+
+nav {
+    height: 8%;
+    width: 100%;
+    background-color: #AB5929;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+
+
+}
+
+.leftnav,
+.rightnav {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    padding: 0 20px;
+
+}
+
+.leftnav a,
+.rightnav a {
+    text-decoration: none;
+    color: #D6B6A3;
+}
+
+.header {
+    height: 92%;
+    width: 100%;
+    background-color: #5c5b5b;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.img {
+    margin-top: 10px;
+    height: 45%;
+    width: 87%;
+    background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/03/c7/0b/caption.jpg?w=1200&h=-1&s=1);
+    background-position: center;
+    background-size: cover;
+}
+
+.box1 {
+    margin-top: 15px;
+    height: 7%;
+    width: 87%;
+    color: #010000;
+    font-size: 29px;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.box2 {
+    height: 7%;
+    width: 87%;
+    margin-top: -3px;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #3e2b21;
+    font-weight: 400;
+}
+
+.box3 {
+    height: 11%;
+    width: 87%;
+    color: #3e2b21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box3 p {
+    font-size: 17px;
+}
+
+.box4 {
+    margin-top: 23px;
+    height: 10%;
+    width: 87%;
+    color: #3e2b21;
+
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    background-image: url(https://preview.redd.it/a-map-of-gun-violence-in-san-francisco-2022-v0-qkxxygsmf8gb1.png?width=640&crop=smart&auto=webp&s=33f782fdd35fad2fc7a65273ee97313b7c6000ec);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.box4 p {
+    font-size: 17px;
+}
