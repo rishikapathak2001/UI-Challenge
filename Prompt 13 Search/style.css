@@ -1,0 +1,88 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+html,body{
+height: 120%;
+width: 100%;
+}
+
+.container{
+    height: 100%; width: 100%;
+    background-color: #FFD43D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main{
+    height: 80%; width: 85%;
+    background-color: #FFE489;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: sans-serif;
+}
+.box1{
+    height: 40%; width: 27%;
+    border-radius: 20px;
+    background-image: url(experimential-marketing-1000x1000-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.box2{
+    height: 9%; width: 45%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    font-size: 20px;
+    background-color: white
+    
+    
+
+}
+.box2 h3{
+    color: #706C6A;
+   margin-left: 10px;
+   }
+
+.box2 i{
+    margin-right: 20px;
+    color: #b2afa9;
+}
+.box3{
+    height: 30%; width: 45%;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box3 .b1{
+    height: 17%;
+    width: 100%;
+   display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 28px;
+    font-size: 22px;
+    
+}
+.box3 h5{
+    color: #C1C0BF;
+}
+.box3 i{
+    color: #BDB9AD;
+}
