@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 10, 11);
+ color: white;
+    font-family: sans-serif;
+}
+
+.box {
+    height: 91%;
+    width: 22%;
+    background-color: #292E41;
+}
+nav{
+    width: 100%;
+    height: 19%;
+    
+    
+}
+.navtext1{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 10px;
+}
+.navtext1 i{
+    font-size: 24px;
+    color: #AFB2B9;
+}
+.navtext1 p{
+    font-size: 20px;
+    color: #AFB2B9;
+}
+
+.navbuttons{
+    width: 100%;
+    height: 50%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.sentto{
+    width: 30%;
+    height: 49%;
+    border: 1px solid #8173FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #8173FA
+}
+
+.recivedfrom{
+    width: 43%;
+    height: 49%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: #6C7184;
+}
+
+.lowerbox{
+   height: 80%;
+   width: 100%;
+   
+}
+
+.box1{
+    width: 100%;
+    height: 14.5%;
+    
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+}
+.innerbox1{
+    width: 96%;
+    height: 100%;
+    background-color: #EF5D72;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+  
+}
+.img1{
+    height: 80%;
+    width: 24%;
+    
+    border-radius: 50px;
+    background-image: url(https://img.freepik.com/free-photo/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-space_23-2148767055.jpg?t=st=1719244784~exp=1719248384~hmac=85aa673954ebe1ba11ec89dc5bb20a634e70d118dbf253fbb2d570aeb1c84b8f&w=900);
+    background-position: center;
+   background-size: cover;
+}
+.text1{
+    font-size: 15px;
+}
+.b1{
+    /* height: 100%;
+    width: 20%; */
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+
+
+.box2{
+    width: 100%;
+    height: 14.5%;
+  
+    display: flex;
+    justify-content: space-between;
+}
+.innerbox2{
+    width: 74.5%;
+    height: 100%;
+    background-color: #F86376;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+  
+}
+.img2{
+    height: 80%;
+    width: 25%;
+  
+    border-radius: 50px;
+    background-image: url(https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=);
+    background-position: center;
+   background-size: cover;
+}
+.text2{
+    font-size: 15px;
+}
+.b2{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+   
+   
+}
+
+
+.box3{
+    width: 100%;
+    height: 14.5%;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.innerbox3{
+    width: 68%;
+    height: 100%;
+    background-color: #F66F73;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+  
+}
+.img3{
+    height: 80%;
+    width: 26%;
+    background-color: antiquewhite;
+    border-radius: 50px;
+     background-image: url(https://img.freepik.com/free-photo/businesswoman-posing_23-2148142829.jpg?t=st=1719244809~exp=1719248409~hmac=53f41fe226c695471efe56374c92af2177a2228ff9f1a495a995623eb791f25b&w=360);
+    background-position: center;
+   background-size: cover;
+}
+.text3{
+    font-size: 15px;
+}
+.b3{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+
+
+
+.box4{
+    width: 100%;
+    height: 14.5%;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.innerbox4{
+    width: 61%;
+    height: 100%;
+    background-color: #F49690;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+  
+}
+.img4{
+    height: 80%;
+    width: 32%;
+    background-image: url(https://img.freepik.com/free-photo/young-male-entrepreneur-making-eye-contact-against-blue-background_662251-739.jpg?size=626&ext=jpg&ga=GA1.1.708340650.1717912933&semt=ais_user);
+    background-position: center;
+   background-size: cover;
+    border-radius: 50px;
+}
+.text4{
+    font-size: 15px;
+}
+.b4{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+   
+}
+
+.box5{
+    width: 100%;
+    height: 14.5%;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.innerbox5{
+    width: 54%;
+    height: 100%;
+    background-color: #FD8272;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+  
+}
+.img5{
+    height: 80%;
+    width: 36%;
+    background-image: url(https://media.istockphoto.com/id/1399565382/photo/young-happy-mixed-race-businessman-standing-with-his-arms-crossed-working-alone-in-an-office.jpg?s=612x612&w=0&k=20&c=buXwOYjA_tjt2O3-kcSKqkTp2lxKWJJ_Ttx2PhYe3VM=);
+    background-position: center;
+   background-size: cover;
+    border-radius: 50px;
+}
+.text5{
+    font-size: 15px;
+}
+.b5{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+   
+}
+
+.box6{
+    width: 100%;
+    height: 14.5%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+.innerbox6{
+    width: 47%;
+    height: 100%;
+    background-color: #FB9C60;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+  
+}
+.img6{
+    height: 80%;
+    width: 73%;
+   
+    border-radius: 50px;
+    background-image: url(https://img.freepik.com/premium-photo/3d-image-young-beautiful-businessman_853558-54359.jpg?size=626&ext=jpg&ga=GA1.1.708340650.1717912933&semt=ais_user);
+    background-position: center;
+   background-size: cover;
+}
+.text6{
+    font-size: 15px;
+}
+.b6{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.box7{
+    width: 100%;
+    height: 14.5%;
+  
+    display: flex;
+    justify-content: space-between;
+}
+.innerbox7{
+    width: 41%;
+    height: 100%;
+    background-color: #FAAA61;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 10px;
+  
+}
+.img7{
+    height: 80%;
+    width: 107%;
+    background-color: antiquewhite;
+    border-radius: 50px;
+    background-image: url(https://img.freepik.com/free-photo/woman-thinking_23-2147574180.jpg?t=st=1719244870~exp=1719248470~hmac=62b70f05f9f4539f9de34f6aec7ccbc780a5e8c3f964faa51e0199d85af874ee&w=996);
+    background-position: center;
+   background-size: cover;
+}
+.text7{
+    font-size: 15px;
+}
+.b7{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+   
+}
